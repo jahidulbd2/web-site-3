@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebf0f2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+   
+}
+
+.box1{
+    width: 60rem;
+    height: 40rem;
+    background: #04b4e0;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 10rem;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.box1 img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 60px;
+    position: absolute;
+}
+.text1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 250px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+}
+.icon{
+   font-size: 20px;
+  
+}
+.icon a{
+    padding: 0 10px;
+    color: #ffffff;
+}
+.icon a:hover{
+    background-color: #dbd1c5;
+    border-radius: 5px;
+}
+.button{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 430px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #04b4e0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box2{
+    width: 50rem;
+    height: 40rem;
+    background: #ffffff;
+    position: absolute;
+    margin-left: 42rem;
+    margin-top: 10rem;
+    border-radius: 20px;  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+ 
+ 
